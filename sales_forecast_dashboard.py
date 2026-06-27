@@ -5,7 +5,7 @@ import joblib
 
 st.set_page_config(page_title="Predictive Sales Forecast Dashboard", layout="wide")
 
-df = pd.read_csv("cleaned_forecast_data.csv")
+df = pd.read_csv("cleaned_forecast_data.zip",compression="zip")
 forecast_df = pd.read_csv("forecast_model_data.csv")
 
 df["InvoiceDate"] = pd.to_datetime(df["InvoiceDate"])
