@@ -229,6 +229,16 @@ pip install -r requirements.txt
 ```bash
 streamlit run sales_forecast_dashboard.py
 ```
+---
+
+# 🌐 LIVE APPLICATION
+
+| Deployment | Link |
+|------------|------|
+| 🚀 Streamlit Dashboard | https://codtech-project-1-predictive-sales-forecast-dxyl6w6r38kd4b9qtm.streamlit.app/ |
+
+---
+
 
 ---
 
